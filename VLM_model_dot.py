@@ -209,6 +209,7 @@ class QwenVLModel:
         # Load the ego image
         ego_img = Image.open(image_path)
         width, height = ego_img.size
+        dots = self._to_pixel_coords(dots, width, height)
         
         # Load exo image if provided
         exo_img = None
@@ -620,81 +621,118 @@ class QwenVLModel:
 
     def parse_dot_coordinates(self, text):
         """
-        Parse list of dot coordinates from a model-generated text response.
+        Parse keypoint coordinates from a model-generated text response.
 
         Supported formats:
-        - JSON list of lists: [[x1, y1], [x2, y2], ...]
-        - Individual points: 
-          point1: [x, y]
-          point2: [x, y]
-          point1: (x, y)
-        - Raw coordinates like: [x, y] or (x, y)
-        - Bounding boxes (converted to center points): [x1, y1, x2, y2]
-
-        Args:
-            text (str): Text containing keypoint coordinates
+        - JSON list of lists: [[u,v], [u,v], ...] or [[x,y], ...]
+        - JSON list of dicts: [{"u":0.12,"v":0.34}, ...] or {"x":123,"y":456}
+        - Individual points with labels: "point1: [x, y]", "point2: (x, y)"
+        - Raw coordinates in text: "[x, y]" or "(x, y)"
 
         Returns:
-            list: List of [x, y] integer coordinates
+            list: List of [x, y] floats (either normalized 0–1 or pixel coordinates).
+                정규화/픽셀 여부는 후속 단계에서 판별.
         """
+        def _to_float_list(seq):
+            try:
+                return [float(seq[0]), float(seq[1])]
+            except Exception:
+                return None
+
         points = []
 
-        # First try to parse as JSON array
+        # 1) JSON 블록 탐색
         try:
-            # Look for JSON array pattern
-            json_pattern = r"\[\s*\[[\d\s,]+\](?:\s*,\s*\[[\d\s,]+\])*\s*\]"
-            match = re.search(json_pattern, text)
-            if match:
-                json_like = match.group(0)
-                parsed = json.loads(json_like)
-                # print(f"Found JSON array: {parsed}")
-                
-                for pt in parsed:
-                    if isinstance(pt, list):
-                        if len(pt) == 2:
-                            # Standard dot format [x, y]
-                            x, y = map(int, pt)
-                            points.append([x, y])
-                        elif len(pt) == 4:
-                            # Bounding box format [x1, y1, x2, y2] - convert to center point
-                            x1, y1, x2, y2 = map(int, pt)
-                            center_x = (x1 + x2) // 2
-                            center_y = (y1 + y2) // 2
-                            points.append([center_x, center_y])
-                            # print(f"Converted bbox {pt} to center point [{center_x}, {center_y}]")
-                
-                if points:
-                    return points
-        except Exception as e:
-            print(f"JSON parsing failed: {e}")
+            json_array_candidates = re.findall(r'\[[^\[\]]+\]', text, flags=re.DOTALL)
+            for candidate in json_array_candidates:
+                try:
+                    parsed = json.loads(candidate)
+                except Exception:
+                    try:
+                        parsed = ast.literal_eval(candidate)
+                    except Exception:
+                        continue
+
+                if isinstance(parsed, list):
+                    for item in parsed:
+                        if isinstance(item, (list, tuple)) and len(item) == 2:
+                            p = _to_float_list(item)
+                            if p:
+                                points.append(p)
+                        elif isinstance(item, dict):
+                            if all(k in item for k in ("u", "v")):
+                                try:
+                                    points.append([float(item["u"]), float(item["v"])])
+                                except Exception:
+                                    pass
+                            elif all(k in item for k in ("x", "y")):
+                                try:
+                                    points.append([float(item["x"]), float(item["y"])])
+                                except Exception:
+                                    pass
+                    if points:
+                        return points
+        except Exception:
             pass
 
-        # Try to parse individual coordinate patterns
+        # 2) 개별 좌표 패턴
         patterns = [
-            # 2-coordinate patterns (dots)
-            r'point\d*:\s*\[\s*(\d+)\s*,\s*(\d+)\s*\]',
-            r'point\d*:\s*\(\s*(\d+)\s*,\s*(\d+)\s*\)',
-            r'\[\s*(\d+)\s*,\s*(\d+)\s*\]',
-            r'\(\s*(\d+)\s*,\s*(\d+)\s*\)',
+            r'point\d*:\s*\[\s*([-+]?\d*\.?\d+(?:[eE][-+]?\d+)?)\s*,\s*([-+]?\d*\.?\d+(?:[eE][-+]?\d+)?)\s*\]',
+            r'point\d*:\s*\(\s*([-+]?\d*\.?\d+(?:[eE][-+]?\d+)?)\s*,\s*([-+]?\d*\.?\d+(?:[eE][-+]?\d+)?)\s*\)',
+            r'\[\s*([-+]?\d*\.?\d+(?:[eE][-+]?\d+)?)\s*,\s*([-+]?\d*\.?\d+(?:[eE][-+]?\d+)?)\s*\]',
+            r'\(\s*([-+]?\d*\.?\d+(?:[eE][-+]?\d+)?)\s*,\s*([-+]?\d*\.?\d+(?:[eE][-+]?\d+)?)\s*\)',
         ]
-
         for pattern in patterns:
             matches = re.findall(pattern, text)
-            for match in matches:
+            for m in matches:
                 try:
-                    x, y = map(int, match)
+                    x, y = float(m[0]), float(m[1])
                     points.append([x, y])
-                except Exception as e:
+                except Exception:
                     continue
 
-        # If still no points found, try to parse as bounding boxes and convert to center points
         if not points:
-            print("No dot coordinates found, trying to parse as bounding boxes...")
-            print(f"text : {text}")
-
-
+            print("No coordinates found in response.")
+            # print(f"text: {text}")
+        print(f"final points : {points}")
         return points
 
+    def _to_pixel_coords(self, dots, W, H):
+        """
+        dots: list of [a, b] or [{"u":..,"v":..}, ...]
+            - If 0<=a<=1 and 0<=b<=1  -> treated as normalized (u,v)
+            - Else                     -> treated as pixel (x,y)
+        Returns: list of [x_int, y_int] clamped to image bounds
+        """
+        px = []
+        for p in dots or []:
+            # 1) get u/v or x/y from list or dict
+            if isinstance(p, dict):
+                u = p.get("u", p.get("x"))
+                v = p.get("v", p.get("y"))
+            else:
+                if not isinstance(p, (list, tuple)) or len(p) < 2:
+                    continue
+                u, v = p[0], p[1]
+
+            # 2) normalized or pixel?
+            try:
+                u = float(u); v = float(v)
+            except (TypeError, ValueError):
+                continue
+
+            if 0.0 <= u <= 1.0 and 0.0 <= v <= 1.0:
+                x = u * W
+                y = v * H
+            else:
+                x = u
+                y = v
+
+            # 3) round & clamp
+            xi = max(0, min(int(round(x)), W - 1))
+            yi = max(0, min(int(round(y)), H - 1))
+            px.append([xi, yi])
+        return px
 
     def calculate_metrics(self, pred_heatmap, gt_map):
         """

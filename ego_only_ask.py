@@ -8,8 +8,8 @@ from file_managing import (
     get_actual_path,
     get_gt_path,
 )
-from config import AGD20K_PATH, model_name, AGD20K_cropped_PATH, AGD20K_concated_PATH
-from VLM_model_dot_gpt import QwenVLModel, MetricsTracker
+from config import AGD20K_PATH, model_name
+from VLM_model_dot import QwenVLModel, MetricsTracker
 import os
 os.environ["PYTORCH_CUDA_ALLOC_CONF"] = "expandable_segments:True"
 os.environ["PYTORCH_ENABLE_SDPA"] = "1"
@@ -101,7 +101,7 @@ def affordance_grounding(model, action, object_name, image_path, gt_path, exo_pa
 
     # Save results
 
-def get_random_exo_path(ego_path, AGD20K_reference_PATH=AGD20K_cropped_PATH):
+def get_random_exo_path(ego_path, AGD20K_reference_PATH=AGD20K_PATH):
     """
     Get a random exocentric image path based on the egocentric image path
     Args:
@@ -178,7 +178,7 @@ def get_selected_exo_path(sample_info, data, best_exo_data=None):
         print(f"⚠️ Error getting selected exocentric image: {str(e)}")
         # Fallback to random selection
         ego_path = get_actual_path(sample_info['image_path'])
-        return get_random_exo_path(ego_path, AGD20K_reference_PATH = AGD20K_cropped_PATH)
+        return get_random_exo_path(ego_path, AGD20K_reference_PATH = AGD20K_PATH)
 
 def main():
     # Initialize Qwen VL model

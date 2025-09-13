@@ -1,0 +1,377 @@
+nohup: ignoring input
+🤖 OpenAI client for 'gpt-5' initialized.
+Processing 123 samples...
+==================================================
+--- Start   --------------------------------------------------------------------------------
+Action : jump, Object : skis image_name : skis_002829.jpg
+ANSWER : [[Underfoot center section and adjacent edges, tip, and tail of the ski on the left side of the image], [Underfoot center section and adjacent edges, tip, and tail of the ski on the right side of the image]]
+--- Start   --------------------------------------------------------------------------------
+Action : jump, Object : skateboard image_name : skateboard_002387.jpg
+ANSWER : [Tail kick at the left end of the board for the pop. Center griptape on the top deck for rear-foot setup and front-foot slide. Nose edge at the right end for catching and leveling. Rear truck mounting area above the left wheels for leverage during the pop. Front truck mounting area above the right wheels for stability as the board rises.]
+--- Start   --------------------------------------------------------------------------------
+Action : jump, Object : surfboard image_name : surfboard_000658.jpg
+ANSWER : [[The tail (rear edge) and the central deck/stance area, plus the rails along the rear half of the surfboard on the left side of the image], [The tail (rear edge) and the central deck/stance area, plus the rails along the rear half of the surfboard on the right side of the image]]
+--- Start   --------------------------------------------------------------------------------
+Action : jump, Object : snowboard image_name : snowboard_001704.jpg
+ANSWER : [[Center stance area with binding inserts, used to load and release pop for the jump. Tail section at the bottom end, including the tail edge and contact point, used to snap an ollie. Nose section at the top end, including the nose edge and contact point, used for nollies and leveling on takeoff and landing. Side edges along both sides under the stance area, used to set edge and compress before takeoff], [Center stance area, used to flex and release energy for the jump. Tail section at the bottom end, including the tail edge and contact point, used to pop off the lip. Nose section at the top end, including the nose edge and contact point, used for nollies and takeoff control. Side edges along both sides under the stance area, used to edge and load the pop]]
+--- Start   --------------------------------------------------------------------------------
+Action : peel, Object : carrot image_name : carrot_003707.jpg
+ANSWER : [The entire outer surface of the carrot, including both the tip and the stem end, along its full length on the cutting board near the upper-center/right of the image]
+--- Start   --------------------------------------------------------------------------------
+Action : peel, Object : orange image_name : orange_001193.jpg
+ANSWER : [Top-center rind facing the camera, to pinch and start lifting the peel. Right-side rind of the orange, to grip and pull the peel around the fruit. Bottom edge of the rind where it contacts the table, to strip the peel downward in sections.]
+--- Start   --------------------------------------------------------------------------------
+Action : peel, Object : banana image_name : banana_000480.jpg
+ANSWER : [Stem at the left end of the banana to pinch and start the peel. Crown at the top center where the peel splits into flaps to begin separation. Tips of the three peel flaps (left, center, and right) to grip and pull downward. Outer edge seams along each peel flap to guide and continue the peel. Bottom end of the banana to pull the last peel sections free.]
+--- Start   --------------------------------------------------------------------------------
+Action : peel, Object : apple image_name : apple_001541.jpg
+ANSWER : [The outer skin surface of the apple in the center of the image, including the stem-end rim, the calyx-end rim, and the midsection band where a peeler runs continuously]
+--- Start   --------------------------------------------------------------------------------
+Action : wash, Object : toothbrush image_name : toothbrush_001991.jpg
+ANSWER : [Bristle head at the very top, including all bristles and the surrounding head rim, which must be rinsed thoroughly during washing. Neck just below the head on the upper shaft where residue collects and needs rinsing. Front button panel and its edges in the middle of the handle, which should be wiped and washed. Entire cylindrical handle grip around the midsection, including the rubberized area that is held and needs cleaning. Bottom end cap at the base of the handle, which should be rinsed to remove buildup.]
+--- Start   --------------------------------------------------------------------------------
+Action : wash, Object : cup image_name : cup_003621.jpg
+ANSWER : [Handle loop on the right side for gripping and scrubbing all around. Handle attachment joints at the top and bottom where it meets the body to clean creases. Rim at the top—the full circular lip to scrub. Interior walls and bottom inside the cup to wash residue. Exterior side surface around the cylindrical body, including the front graphic and back. Base/underside ring at the bottom edge for cleaning the contact area.]
+--- Start   --------------------------------------------------------------------------------
+Action : wash, Object : orange image_name : orange_001193.jpg
+ANSWER : [The entire peel surface of the orange in the front-center of the image, including the stem end, blossom end, and all side curvature]
+--- Start   --------------------------------------------------------------------------------
+Action : wash, Object : fork image_name : fork_001691.jpg
+ANSWER : [Tines and spaces between the tines on the left side of the image, where scrubbing removes residue. Base of the tines and the curved neck just to the right of the tines, where debris collects. Top and bottom faces of the handle along its full length toward the lower-right, which need wiping. Outer edges of the handle along both sides, which require scrubbing. Rounded butt end at the far lower-right, which must be rinsed.]
+--- Start   --------------------------------------------------------------------------------
+Action : wash, Object : wine_glass image_name : wine_glass_000186.jpg
+ANSWER : [Rim and lip: scrub the circular top edge thoroughly. Interior bowl: clean the entire inner surface from the rim down to the bowl–stem junction. Exterior bowl: wipe the entire outer curved surface. Stem: grip this narrow shaft while washing to stabilize the glass. Base/foot: scrub the flat bottom and its outer rim. Joints: clean the creases where the bowl meets the stem and where the stem meets the base.]
+--- Start   --------------------------------------------------------------------------------
+Action : wash, Object : bowl image_name : bowl_002825.jpg
+ANSWER : [Rim of the bowl for gripping and scrubbing around the edge. Interior surface of the bowl for removing residue and rinsing. Exterior sidewall of the bowl for wiping soap and rinsing. Underside base/foot of the bowl for scrubbing and rinsing.]
+--- Start   --------------------------------------------------------------------------------
+Action : wash, Object : knife image_name : knife_002720.jpg
+ANSWER : [Blade faces on both sides from heel to tip, for scrubbing. Cutting edge along its full length from heel to tip, for careful cleaning. Blade spine along the full length. Tip point. Bolster/ricasso area at the junction of the blade and handle, including the metal locking ring. Pivot joint at the base of the blade. Entire handle from the front ferrule to the butt, including the lanyard hole.]
+--- Start   --------------------------------------------------------------------------------
+Action : sit_on, Object : chair image_name : chair_002839.jpg
+ANSWER : [Seat cushion surface covering the central flat area from the backrest junction to the front edge and from the left armrest to the right armrest to bear body weight. Front edge of the seat cushion along the forward lip to support thighs during sitting. Backrest cushion area immediately above the seat across its width to support the back when seated. Left armrest top surface to aid lowering onto and rising from the seat. Right armrest top surface to aid lowering onto and rising from the seat.]
+--- Start   --------------------------------------------------------------------------------
+Action : sit_on, Object : couch image_name : couch_000779.jpg
+ANSWER : [Seat cushions and front edge of the couch in the center of the image, covering the left, middle, and right cushions and the front lip for thigh support while sitting]
+--- Start   --------------------------------------------------------------------------------
+Action : sit_on, Object : bed image_name : bed_003622.jpg
+ANSWER : [Top surface of the mattress across the central area of the bed, used to support body weight while seated. Front edge of the mattress facing the camera, used for sitting on the edge with feet on the floor. Left side edge of the mattress, used as an alternate sitting spot. Right side edge of the mattress, used as an alternate sitting spot. Front wooden platform edge directly beneath the mattress, providing firm support when sitting on the mattress edge.]
+--- Start   --------------------------------------------------------------------------------
+Action : sit_on, Object : bench image_name : bench_001877.jpg
+ANSWER : [The top seating surface of the red slatted bench, spanning the full length from the near-left end to the far-right end, including both the front edge and rear edge where a person places their weight]
+--- Start   --------------------------------------------------------------------------------
+Action : sit_on, Object : bicycle image_name : bicycle_002100.jpg
+ANSWER : [Saddle top surface at the rear of the bicycle supports the hips while sitting. Saddle left and right edges and rear lip provide lateral stability while seated. Seat post and the junction with the frame directly beneath the saddle bear the seated weight. Handlebar left grip, right grip, and center stem at the front provide balance while seated. Left pedal tread and right pedal tread support the feet while seated.]
+--- Start   --------------------------------------------------------------------------------
+Action : sit_on, Object : motorcycle image_name : motorcycle_000837.jpg
+ANSWER : [Rider seat top surface: the black padded section centered behind the fuel tank, covering from the narrow front tip to the rear step. Rider seat side edges: the left and right edges along the full length of the rider seat where the thighs rest. Passenger seat top surface: the raised black pad over the tail, from its front edge to its rear tip. Passenger seat side edges: the left and right edges of the passenger seat for thigh support. Seat–tank junction: the front nose of the rider seat where it meets the tank to brace the hips while seated.]
+--- Start   --------------------------------------------------------------------------------
+Action : sit_on, Object : skateboard image_name : skateboard_001460.jpg
+ANSWER : [Top deck surface across the full length from nose to tail for sitting support. Center of the deck where the hips rest. Rear kicktail edge to brace the lower back or prevent sliding backward. Front nose edge to brace hands or feet to prevent sliding forward.]
+--- Start   --------------------------------------------------------------------------------
+Action : sit_on, Object : surfboard image_name : surfboard_000010.jpg
+ANSWER : [Top deck midsection traction pad across the full width used as the primary seating surface. Rear deck pad and tail edge providing seated support and bracing. Side rails along both left and right edges at the midsection used for thigh or hand stabilization while seated.]
+--- Start   --------------------------------------------------------------------------------
+Action : drag, Object : suitcase image_name : suitcase_002998.jpg
+ANSWER : [Top telescoping handle grip above the suitcase used to pull, Both vertical telescoping handle rods from their mounts at the top of the case to the grip, Right-side carry handle on the side panel for initial tilting or pulling, Pair of bottom wheels at the rear corners, Lower rear edge of the suitcase just above the wheels used as the pivot while dragging]
+--- Start   --------------------------------------------------------------------------------
+Action : type_on, Object : laptop image_name : laptop_000585.jpg
+ANSWER : [Alphanumeric key cluster in the central portion of the keyboard used for most text entry. Spacebar along the front-middle edge used for inserting spaces. Enter and Backspace keys on the right side of the keyboard used for line breaks and corrections. Top function key row along the upper edge used for shortcuts while typing. Modifier keys (Shift, Ctrl, Alt) along the bottom-left and bottom-right used for capitalization and key combinations.]
+--- Start   --------------------------------------------------------------------------------
+Action : type_on, Object : keyboard image_name : keyboard_000439.jpg
+ANSWER : [[Center alphanumeric key area on the standalone keyboard in front of the monitor, where most key presses occur during typing. Top function-key row on the same keyboard, used for shortcuts while typing. Bottom row with the spacebar and modifier keys on the same keyboard, used for spacing and command inputs. Left edge modifier keys (Shift, Tab, Caps) on the same keyboard, used for capitalization and navigation. Right edge keys (Enter/Return, Shift, Backspace/Delete) and the arrow cluster on the same keyboard, used to confirm, edit, and navigate text], [Center alphanumeric key area on the laptop keyboard above the trackpad on the right side of the image, where most key presses occur. Top function-key row on the laptop keyboard, used for shortcuts. Bottom row with the spacebar and modifier keys on the laptop keyboard, used for spacing and command inputs. Left edge modifier keys (Shift, Tab, Caps) on the laptop keyboard, used for capitalization and navigation. Right edge keys (Enter/Return, Shift, Backspace/Delete) and the arrow cluster on the laptop keyboard, used to confirm, edit, and navigate text]]
+--- Start   --------------------------------------------------------------------------------
+Action : pack, Object : suitcase image_name : suitcase_002212.jpg
+ANSWER : [Main interior compartment at the bottom of the open suitcase, where items are placed. Compression straps and buckles across the bottom compartment, used to secure packed items. Lid organizer pockets on the inside of the top flap, including the large zippered pocket and elastic pouches. Perimeter zipper track and both zipper pulls running around the opening edge, used to close the suitcase after packing. Rigid rim and edges of the opening on both halves, used to align and press the case shut.]
+--- Start   --------------------------------------------------------------------------------
+Action : cut, Object : carrot image_name : carrot_001443.jpg
+ANSWER : [Top surface of the carrot on the right side of the image under the knife edge where pressure is applied to cut. Side wall of the carrot along the blade’s path to support and guide the slice. Bottom face of the carrot pressed against the cutting board to stabilize during cutting.]
+--- Start   --------------------------------------------------------------------------------
+Action : cut, Object : orange image_name : orange_001193.jpg
+ANSWER : [Peel surface around the equator of the orange at the front-center of the image where the knife slices. Top pole of the orange for initial scoring and grip. Bottom pole of the orange resting on the table for stabilization while cutting.]
+--- Start   --------------------------------------------------------------------------------
+Action : cut, Object : banana image_name : banana_002623.jpg
+ANSWER : [[The entire length of the front-most banana resting along the bottom-right rim of the basket, including its stem connection at the upper-left end and its tip at the lower-right end], [The entire length of the banana curving along the left side of the basket, including the stem connection at the top-left and its lower tip], [The entire length of the banana nested in the middle of the bunch, from the stem cluster on the upper-left to its rightward end], [The entire length of the rear banana partially hidden behind the others on the left side of the basket, from the stem cluster to its rightward tip]]
+--- Start   --------------------------------------------------------------------------------
+Action : cut, Object : apple image_name : apple_000054.jpg
+ANSWER : [[The midline circumference surface, stem dimple, blossom-end dimple, and opposite lateral sides for stabilizing grip on the apple on the left side of the plate], [The midline circumference surface, stem dimple, blossom-end dimple, and opposite lateral sides for stabilizing grip on the apple on the front-right of the plate]]
+--- Start   --------------------------------------------------------------------------------
+Action : ride, Object : bicycle image_name : bicycle_003046.jpg
+ANSWER : [Left handlebar grip and end cap for the left hand to steer. Right handlebar grip and end cap for the right hand to steer. Center of the handlebar where it meets the stem for steering leverage. Top surface of the saddle for sitting and balance. Left pedal tread surface and outer edge for the left foot to push. Right pedal tread surface and outer edge for the right foot to push. Left crank arm from the bottom bracket to the left pedal for force transfer. Right crank arm from the bottom bracket to the right pedal for force transfer. Right-side chainring and chain contact area beside the bottom bracket for drive transfer.]
+--- Start   --------------------------------------------------------------------------------
+Action : ride, Object : motorcycle image_name : motorcycle_002198.jpg
+ANSWER : [Handlebar grips at the far left and far right and the center handlebar clamp area for steering control. Right handlebar grip including the twist throttle surface to control speed. Front brake lever on the right handlebar just ahead of the grip for braking. Clutch lever on the left handlebar just ahead of the grip for shifting. Switch cluster on the right handlebar next to the grip (starter/kill) for engine control. Switch cluster on the left handlebar next to the grip (signals/horn) for ride controls. Rider seat top surface and its rear edge for sitting balance. Left and right foot pegs located below the seat for foot support. Rear brake pedal near the right foot peg for braking. Gear shift lever near the left foot peg for changing gears. Fuel tank side panels and upper surface in front of the seat where knees and thighs grip for stability.]
+--- Start   --------------------------------------------------------------------------------
+Action : cut_with, Object : scissors image_name : scissors_002479.jpg
+ANSWER : [Finger rings at the bottom-right used to insert thumb and finger to apply squeezing force. Handle shanks above the rings on both sides that transmit force toward the blades. Pivot hinge near the upper-middle where the two halves rotate to generate shearing. Inner cutting edges of both blades from the pivot up to the tip that perform the cut. Blade tips at the very top that pierce material and make precision snips.]
+--- Start   --------------------------------------------------------------------------------
+Action : cut_with, Object : knife image_name : knife_001749.jpg
+ANSWER : [Handle center for primary grip and control during cutting. Handle butt end for leverage and stabilization. Front of the handle at the junction with the blade for a pinch grip and precision control. Serrated cutting edge along the full length of the blade for sawing and slicing. Blade tip for initiating cuts and piercing. Blade heel near the handle for controlled downward pressure. Blade spine along the back edge for applying extra thumb or finger force.]
+--- Start   --------------------------------------------------------------------------------
+Action : sip, Object : bottle image_name : bottle_000341.jpg
+ANSWER : [Opening rim at the very top of the center bottle for placing lips to sip. Neck just below the opening of the center bottle for stabilizing grip while sipping. Upper body area around the label of the center bottle for holding during the sip.]
+--- Start   --------------------------------------------------------------------------------
+Action : sip, Object : cup image_name : cup_001864.jpg
+ANSWER : [The rim/lip: the full circular edge of the cup opening where the mouth makes contact to sip. The inner rim edge: the inner circular edge just inside the opening that guides the flow into the mouth. The outer sidewall band below the rim: the narrow exterior ring immediately beneath the lip used to brace while tilting to sip.]
+--- Start   --------------------------------------------------------------------------------
+Action : sip, Object : wine_glass image_name : wine_glass_003343.jpg
+ANSWER : [Rim: the entire circular lip around the top opening for mouth contact. Inner rim: the upper inner edge of the bowl where liquid flows to the lips. Stem: the full length of the stem from the bowl junction to the base for gripping while sipping. Stem–bowl junction: the narrow area where the stem meets the bowl for pinch-grip control. Bowl exterior near rim: the upper outer band just below the rim that can touch the lips or nose while sipping.]
+--- Start   --------------------------------------------------------------------------------
+Action : catch, Object : soccer_ball image_name : soccer_ball_003333.jpg
+ANSWER : [The entire soccer_ball area in the lower-left foreground of the image]
+--- Start   --------------------------------------------------------------------------------
+Action : catch, Object : frisbee image_name : frisbee_000598.jpg
+ANSWER : [Outer rim circumference around the disc in the center of the image, where fingers clamp to secure the catch. Top surface from the center to the mid-radius in the center of the image, where the palm contacts to absorb and stop the disc.]
+--- Start   --------------------------------------------------------------------------------
+Action : catch, Object : rugby_ball image_name : rugby_ball_003522.jpg
+ANSWER : [Side panels along both long sides for palm contact to clamp the ball during the catch. Laces strip on the top-center for finger grip when closing hands. Longitudinal seams along the top midline for additional finger purchase. Pointed tips at both ends where thumbs and fingers brace to stop and secure the ball. Central belly of the ball where initial impact is absorbed as hands meet the ball.]
+--- Start   --------------------------------------------------------------------------------
+Action : lie_on, Object : couch image_name : couch_003293.jpg
+ANSWER : [Seat cushions across the entire L-shaped sectional, including the left chaise platform, the central inner-corner seat, and the right-side seats, as the primary horizontal lying surface. Left armrest top surface at the far-left end for head or arm support while lying. Right armrest top surface at the far-right end for head or arm support while lying. Backrest upper edges along the full length and around the inner corner for supporting the back or head while reclining.]
+--- Start   --------------------------------------------------------------------------------
+Action : lie_on, Object : bed image_name : bed_002880.jpg
+ANSWER : [The entire bed area in the center of the image]
+--- Start   --------------------------------------------------------------------------------
+Action : lie_on, Object : bench image_name : bench_003727.jpg
+ANSWER : [Seat surface: the full-length wooden planks forming the horizontal platform, spanning from the far-left edge through the center to the far-right edge in the middle of the image]
+--- Start   --------------------------------------------------------------------------------
+Action : lie_on, Object : surfboard image_name : surfboard_000221.jpg
+ANSWER : [The full top deck surface of the surfboard on the left side of the image, spanning from nose to tail and across the center width]
+--- Start   --------------------------------------------------------------------------------
+Action : open, Object : bottle image_name : bottle_001033.jpg
+ANSWER : [Cap at the very top of the bottle in the center of the image for twisting or prying, Neck directly below the cap in the upper-center for gripping and counter-torque, Mouth rim at the very tip where the seal breaks during opening]
+--- Start   --------------------------------------------------------------------------------
+Action : open, Object : refrigerator image_name : refrigerator_002162.jpg
+ANSWER : [Left door handle: the full vertical grip on the left door from top end to bottom end used to pull the door open. Right door handle: the full vertical grip on the right door from top end to bottom end used to pull the door open. Center door seam: the entire vertical edge where the two doors meet, usable as an alternate pull edge. Left-side hinges: the top and bottom hinges along the far-left edge enabling the left door to pivot. Right-side hinges: the top and bottom hinges along the far-right edge enabling the right door to pivot.]
+--- Start   --------------------------------------------------------------------------------
+Action : open, Object : oven image_name : oven_001370.jpg
+ANSWER : [Handle bar: entire length of the horizontal handle centered along the top of the oven door for pulling. Handle center: middle of the handle for a one-handed pull. Handle ends: left and right ends of the handle for two-handed pull. Door top edge seam: the long upper edge of the door where separation begins when pulled. Bottom hinge line: full-width lower edge of the door where it pivots downward. Bottom-left hinge: lower-left corner pivot. Bottom-right hinge: lower-right corner pivot.]
+--- Start   --------------------------------------------------------------------------------
+Action : open, Object : book image_name : book_003044.jpg
+ANSWER : [Front cover right edge of the book near the bottom-center-left of the image for lifting to start opening. Spine along the left edge of the book acting as the hinge during opening. Top-right corner of the front cover for pinching and flipping. Page fore-edge along the right side for thumb insertion to separate and open the pages.]
+--- Start   --------------------------------------------------------------------------------
+Action : open, Object : suitcase image_name : suitcase_000520.jpg
+ANSWER : [Zipper pull tabs along the front-right rim used to unzip the suitcase. Perimeter zipper track around the seam joining the lid and base. Right-side lock area where the zipper tabs are released. Front edge of the lid used to lift the lid upward. Left-side hinge line where the lid pivots. Side carry handle on the base used to hold the suitcase steady while opening.]
+--- Start   --------------------------------------------------------------------------------
+Action : open, Object : microwave image_name : microwave_001049.jpg
+ANSWER : [Top horizontal handle on the front door—left end, center, and right end used to grip and pull to open. Right vertical door edge and latch seam next to the control panel—upper, middle, and lower sections where the latch releases. Left vertical hinge line of the door—upper and lower hinge areas that act as the pivot during opening.]
+--- Start   --------------------------------------------------------------------------------
+Action : text_on, Object : cell_phone image_name : cell_phone_003361.jpg
+ANSWER : [Entire front touchscreen surface, primary input area for tapping and swiping during texting; Lower half of the touchscreen, where the on‑screen keyboard is tapped for character entry; Center of the touchscreen, where the text field and cursor are edited and words are selected; Bottom-right area of the touchscreen, where the send/enter key is typically tapped; Top portion of the touchscreen, where back/navigation and conversation controls are tapped; Left and right side edges of the phone’s frame, used for gripping the device securely while typing]
+--- Start   --------------------------------------------------------------------------------
+Action : boxing, Object : punching_bag image_name : punching_bag_001845.jpg
+ANSWER : [The full cylindrical striking surface of the punching_bag—from just below the top seam, across the red midsection, down to just above the bottom seam]
+--- Start   --------------------------------------------------------------------------------
+Action : stir, Object : bowl image_name : bowl_000134.jpg
+ANSWER : [Inner bowl base and center area where the spoon moves to mix; Interior sidewalls all around the bowl for swirling and scraping; Top rim of the bowl around the opening for guiding the spoon and preventing spills; Outer side of the bowl where a hand grips to stabilize while stirring]
+--- Start   --------------------------------------------------------------------------------
+Action : hit, Object : baseball_bat image_name : baseball_bat_001882.jpg
+ANSWER : [Handle grip from the knob through the middle of the handle along the wrapped section, where hands apply force to swing. Knob at the butt end of the handle, used to anchor the lower hand and prevent slippage during a hard swing. Tapered transition from handle into the barrel, where the top hand guides control during the swing. Sweet spot on the mid-to-upper barrel, the primary impact zone that should contact the ball to produce an effective hit. Barrel face around the sweet spot extending toward the end cap, used for off-center hits when contacting the ball. End cap at the tip of the barrel, the forwardmost mass that contributes to momentum at impact.]
+--- Start   --------------------------------------------------------------------------------
+Action : hit, Object : tennis_racket image_name : tennis_racket_002268.jpg
+ANSWER : [Handle grip: the entire wrapped handle at the bottom center, including the butt cap, where the hand grips to swing and apply force. Throat/yoke: the V-shaped junction just above the grip and below the head that transfers force into the frame. String bed: the central interlaced strings within the head, especially the middle sweet spot, where the ball is struck. Head rim: the inner rim surrounding the string bed that stabilizes the hit and can contact the ball on off-center hits.]
+--- Start   --------------------------------------------------------------------------------
+Action : hit, Object : hammer image_name : hammer_001006.jpg
+ANSWER : [Striking face at the front of the hammer head in the center of the image for delivering impact. Handle grip along the entire length from the butt end through the mid-handle to just below the head in the center of the image for applying swing force. Neck area where the head meets the handle in the center of the image for controlled strikes.]
+--- Start   --------------------------------------------------------------------------------
+Action : hit, Object : axe image_name : axe_000961.jpg
+ANSWER : [Cutting edge along the leftmost curved front of the axe head, the primary surface that delivers the hit. Poll (flat back face) on the right side of the axe head, used to hit when hammering. Lower handle grip along the blue rubber section toward the bottom-right, where the primary hand holds to generate swinging force. Mid-handle along the metal shaft near the center-right, where the off-hand can grip or slide to control the hit. Throat/neck just below the head, a choke-up grip area for guiding precise hits. Butt end of the handle at the far bottom-right, the flared stop that secures the hand during the swing.]
+--- Start   --------------------------------------------------------------------------------
+Action : write, Object : pen image_name : pen_003590.jpg
+ANSWER : [[Tip: the left metal point of the pen with the dotted grip across the center of the image. Grip section: the dotted area just behind the tip where fingers hold. Click button: the rightmost rear push button end of this pen.], [Tip: the exposed point near the upper-center where the lower pen meets the crossed pen. Grip section: the smooth barrel area just behind this tip for finger placement. Click button: the bottom-left rear push button end of this pen.]]
+--- Start   --------------------------------------------------------------------------------
+Action : take_photo, Object : cell_phone image_name : cell_phone_000601.jpg
+ANSWER : [The entire cell_phone area in the center of the image]
+--- Start   --------------------------------------------------------------------------------
+Action : take_photo, Object : camera image_name : camera_002534.jpg
+ANSWER : [The entire camera area in the center of the image]
+--- Start   --------------------------------------------------------------------------------
+Action : pour, Object : bottle image_name : bottle_002780.jpg
+ANSWER : [Spout tip at the right end serves as the pouring outlet; Neck and pink collar directly behind the tip stabilize the opening while tilting; Central cylindrical body along the tube is the main grip area to control the pour; Left base end of the tube acts as the far end to lift or pivot during pouring]
+--- Start   --------------------------------------------------------------------------------
+Action : pour, Object : cup image_name : cup_001535.jpg
+ANSWER : [Handle: the entire handle loop on the right side of the cup for gripping and applying torque to tilt; Rim (pour edge): the rim segment opposite the handle on the left side, including its outer edge and inner lip, where the liquid exits during the pour; Base ring: the bottom edge of the cup that is lifted off the saucer and used as a pivot when initiating the pour; Upper outer wall: the outer surface just below the rim on the left side to steady the cup with a supporting finger while pouring]
+--- Start   --------------------------------------------------------------------------------
+Action : pour, Object : wine_glass image_name : wine_glass_000186.jpg
+ANSWER : [Top rim/opening of the bowl where the liquid stream is aimed to enter, Inner bowl just below the rim that receives and contains the poured liquid, Middle of the stem used to grip and stabilize the glass during pouring, Center of the foot/base that rests on the surface to keep the glass steady while pouring]
+--- Start   --------------------------------------------------------------------------------
+Action : kick, Object : soccer_ball image_name : soccer_ball_001588.jpg
+ANSWER : [The entire outer surface of the soccer_ball near the center-left of the image]
+--- Start   --------------------------------------------------------------------------------
+Action : kick, Object : rugby_ball image_name : rugby_ball_002080.jpg
+ANSWER : [Lower side panel of the rugby_ball in the center of the image for the primary foot-strike surface. Front tip of the rugby_ball in the center of the image to drive a low, straight kick. Rear tip of the rugby_ball in the center of the image to control spin on punts. Laces strip on the top midline of the rugby_ball in the center of the image to orient the ball and avoid contact for a cleaner strike. Long side panels along both seams of the rugby_ball in the center of the image to align the instep during the kick.]
+--- Start   --------------------------------------------------------------------------------
+Action : kick, Object : punching_bag image_name : punching_bag_001639.jpg
+ANSWER : [The striking surface of the punching_bag across the midsection and lower half in the center of the image, including the front cylindrical face and the lower rounded edge where low kicks land]
+--- Start   --------------------------------------------------------------------------------
+Action : pick_up, Object : skis image_name : skis_001547.jpg
+ANSWER : [The midsection sidewalls of both skis where they lie side-by-side and can be gripped together to lift]
+--- Start   --------------------------------------------------------------------------------
+Action : pick_up, Object : suitcase image_name : suitcase_002493.jpg
+ANSWER : [Top leather carry handle on the upper face near the case’s center—include the left attachment, center grip, and right attachment for a secure lift. Telescopic handle’s horizontal grip bar at the very top—center and both ends—can be grasped to pick up when retracted. Left side carry handle along the mid-left edge—both mounts and the middle grip—for lifting the suitcase sideways. Lower front edge above the two front wheels—continuous lip from left front corner to right front corner—for underhand lifting into a trunk.]
+--- Start   --------------------------------------------------------------------------------
+Action : carry, Object : skis image_name : skis_002829.jpg
+ANSWER : [[Center waist section of the left ski used for the primary hand grip to carry. Upper tip curve of the left ski used for an alternative top hold. Lower tail end of the left ski used for holding when balancing the ski at one end.], [Center waist section of the right ski used for the primary hand grip to carry. Upper tip curve of the right ski used for an alternative top hold. Lower tail end of the right ski used for holding when balancing the ski at one end.]]
+--- Start   --------------------------------------------------------------------------------
+Action : carry, Object : skateboard image_name : skateboard_002668.jpg
+ANSWER : [Side edges along the middle third of the deck in the center of the image, where a hand grips to carry; Underside of the front truck near the upper wheel, where fingers hook under the hanger to lift; Underside of the rear truck near the lower wheel, where fingers hook under the hanger to lift; Nose tip edge at the top of the board, which can be grabbed to carry by one end; Tail tip edge at the bottom of the board, which can be grabbed to carry by one end]
+--- Start   --------------------------------------------------------------------------------
+Action : carry, Object : surfboard image_name : surfboard_002422.jpg
+ANSWER : [Center rails on both sides—primary grip zone for one‑handed underarm carry. Midsection deck at the board’s balance point—palm support while squeezing the rails. Tail edge around the leash plug—alternative handhold for lifting from the rear. Nose tip—secondary handhold for two‑handed carry.]
+--- Start   --------------------------------------------------------------------------------
+Action : carry, Object : snowboard image_name : snowboard_001325.jpg
+ANSWER : [Center side edges on both long sides between the two bindings for a balanced hand grip. Binding highbacks and straps on both bindings as grab handles for carrying. Deck area between the two bindings as the balance point when lifting from underneath.]
+--- Start   --------------------------------------------------------------------------------
+Action : stick, Object : fork image_name : fork_000095.jpg
+ANSWER : [The pointed tips of all tines at the front for piercing, and the entire handle from mid-shaft to butt for gripping and applying force]
+--- Start   --------------------------------------------------------------------------------
+Action : stick, Object : knife image_name : knife_001072.jpg
+ANSWER : [Blade tip at the front of the knife, used to pierce and initiate the stick. Front section of the cutting edge near the tip, which enters and widens the material during the stick. Blade spine near the tip, guiding alignment and supporting forward force. Guard/ricasso where the blade meets the handle, stabilizing the thumb/forefinger and preventing slip under thrust. Entire wrapped handle grip from front to back, providing the main surface to hold and apply forward force. Butt/pommel at the end of the handle, used to brace against the palm for additional thrust control.]
+--- Start   --------------------------------------------------------------------------------
+Action : look_out, Object : binoculars image_name : binoculars_003630.jpg
+ANSWER : [Eyecups at the back-left ends of both barrels, where the eyes are placed and stray light is blocked for a clear view. Objective lenses at the front-right ends of both barrels, the glass faces that gather the scene being looked at. Central focus wheel on the bridge between the barrels near the eyepieces, the ridged knob rotated to sharpen focus. Right-eye diopter adjustment ring directly behind the right eyepiece, turned to balance focus between eyes. Barrel grip surfaces along the outer sides and undersides of both barrels from midsection to eyepiece ends, where hands hold to steady the view. Central hinge/bridge connecting the barrels, pivoted to set the interpupillary distance for proper eye alignment.]
+--- Start   --------------------------------------------------------------------------------
+Action : hold, Object : toothbrush image_name : toothbrush_003341.jpg
+ANSWER : [The handle of the exposed toothbrush at center-left, covering the middle grip area, the narrowed neck below the bristles, and the butt end for a secure hold]
+--- Start   --------------------------------------------------------------------------------
+Action : hold, Object : baseball_bat image_name : baseball_bat_002547.jpg
+ANSWER : [Entire wrapped handle on the right end from the taper down to the knob for the hands; Knob/butt at the extreme right end to brace the palm and prevent slippage; Tapered section immediately above the wrapped handle for top-hand placement when choking up]
+--- Start   --------------------------------------------------------------------------------
+Action : hold, Object : bottle image_name : bottle_001227.jpg
+ANSWER : [[The neck (including the swing-top) and the mid-body cylindrical surface of the bottle on the left side of the image], [The neck and the mid-body cylindrical surface of the bottle on the right side of the image]]
+--- Start   --------------------------------------------------------------------------------
+Action : hold, Object : cup image_name : cup_002518.jpg
+ANSWER : [Outer sidewall of the cup around its full circumference for finger wrap. Upper outer sidewall just below the rim across the near-right and near-left sides for thumb-and-finger pinch. Bottom base rim (the circular edge at the bottom of the cup) for supporting with fingertips from below.]
+--- Start   --------------------------------------------------------------------------------
+Action : hold, Object : scissors image_name : scissors_002479.jpg
+ANSWER : [Left handle ring at the bottom-left of the scissors, used for finger insertion to hold; Right handle ring at the bottom-right of the scissors, used for finger insertion to hold; Handle necks above both rings, where the grip is stabilized during hold]
+--- Start   --------------------------------------------------------------------------------
+Action : hold, Object : skis image_name : skis_001357.jpg
+ANSWER : [[The waist/midsection around the binding-mount area at the center of the upper ski], [The waist/midsection around the binding-mount area at the center of the lower ski]]
+--- Start   --------------------------------------------------------------------------------
+Action : hold, Object : tennis_racket image_name : tennis_racket_001785.jpg
+ANSWER : [[Handle grip, covering from the butt cap through the mid-grip to the top of the grip just below the throat of the upper tennis_racket near the center-right of the image], [Handle grip, covering from the butt cap through the mid-grip to the top of the grip just below the throat of the lower tennis_racket near the bottom-left of the image]]
+--- Start   --------------------------------------------------------------------------------
+Action : hold, Object : book image_name : book_001195.jpg
+ANSWER : [Spine at the bottom center where the two halves meet, for a stable pinch grip. Outer page edges along the left and right sides, for finger support while holding open. Lower outer corners of the left and right pages/covers, for thumb and fingertip hold points.]
+--- Start   --------------------------------------------------------------------------------
+Action : hold, Object : frisbee image_name : frisbee_001130.jpg
+ANSWER : [Outer rim circumference around the disc: the continuous rounded edge where the thumb presses on top and fingers curl underneath to hold securely. Underside rim lip all around: the inner ledge under the rim where fingertips hook to maintain the grip.]
+--- Start   --------------------------------------------------------------------------------
+Action : hold, Object : golf_clubs image_name : golf_clubs_000045.jpg
+ANSWER : [Grip: the black rubber handle at the top end of the club, from the butt cap through the center to the lower edge of the grip, covering the full circumference for hand closure. Upper shaft: the straight section immediately below the grip where a supporting hand may also hold.]
+--- Start   --------------------------------------------------------------------------------
+Action : hold, Object : hammer image_name : hammer_000215.jpg
+ANSWER : [Handle center around its full circumference for the primary grip, Handle lower half and butt end around their full circumference to wrap fingers and brace the palm and prevent slipping, Handle area just below the head around its full circumference for a choked-up hold]
+--- Start   --------------------------------------------------------------------------------
+Action : hold, Object : fork image_name : fork_000804.jpg
+ANSWER : [Center of the handle—primary gripping surface for fingers and palm. Lower-left butt end of the handle—anchor against the palm to prevent slipping. Upper handle near the neck—pinch area for precise control. Side edges of the handle along its length—thumb and finger contact surfaces during grip. Neck where the handle meets the head—secondary pinch point.]
+--- Start   --------------------------------------------------------------------------------
+Action : hold, Object : badminton_racket image_name : badminton_racket_002255.jpg
+ANSWER : [[The entire rubber-wrapped handle from butt cap to the top of the grip of the badminton_racket on the left side of the image], [The entire rubber-wrapped handle from butt cap to the top of the grip of the badminton_racket near the center-right of the image]]
+--- Start   --------------------------------------------------------------------------------
+Action : hold, Object : suitcase image_name : suitcase_003687.jpg
+ANSWER : [Telescoping handle grip at the very top center of the suitcase, covering the entire horizontal black grip from left end to right end between the two metal rails. Top carry handle on the suitcase’s upper surface just in front of the telescoping rails, covering the full length of the recessed handle from end to end.]
+--- Start   --------------------------------------------------------------------------------
+Action : hold, Object : wine_glass image_name : wine_glass_002374.jpg
+ANSWER : [Stem—entire length from where it meets the bowl down to where it meets the base, as the primary grip area. Stem-to-bowl junction—narrow neck just below the bowl for a precise pinch grip. Stem-to-base junction—upper center of the foot where the stem connects for stabilizing pinch. Base rim—outer edge of the foot for additional support with fingers if not using the stem. Lower bowl exterior—curved surface just above the stem for an alternative grasp.]
+--- Start   --------------------------------------------------------------------------------
+Action : hold, Object : skateboard image_name : skateboard_002387.jpg
+ANSWER : [Both long side edges along the middle of the deck for a finger wrap hold. Front nose edge of the deck for a pinch hold. Rear tail edge of the deck for a pinch hold. Underside trucks at the baseplates and axles for a secure grab.]
+--- Start   --------------------------------------------------------------------------------
+Action : hold, Object : axe image_name : axe_001552.jpg
+ANSWER : [Handle grip: the rubberized black-and-red middle section of the handle for the primary handhold. Butt end: the flared rear end of the handle to brace the palm and prevent slipping. Neck of handle: the narrower section just above the axe head for the guiding hand.]
+--- Start   --------------------------------------------------------------------------------
+Action : hold, Object : surfboard image_name : surfboard_002631.jpg
+ANSWER : [Left rail along the midsection of the surfboard for a firm side grip. Right rail along the midsection of the surfboard for a second handhold. Nose tip on the right side of the image for a one-hand carry. Tail edge and leash plug area on the left side of the image for lifting and control.]
+--- Start   --------------------------------------------------------------------------------
+Action : hold, Object : snowboard image_name : snowboard_001704.jpg
+ANSWER : [[The side edges along the waist/middle section between the binding insert area on the snowboard on the left side of the image], [The side edges along the waist/middle section between the binding area on the snowboard on the right side of the image]]
+--- Start   --------------------------------------------------------------------------------
+Action : hold, Object : bowl image_name : bowl_000546.jpg
+ANSWER : [[Rim, outer sidewall, and base underside of the bowl on the far left side of the image], [Rim, outer sidewall, and base underside of the blue bowl beneath the white bowl in the center of the image], [Rim, outer sidewall, and base underside of the white bowl in the center of the image], [Rim, outer sidewall, and base underside of the bowl on the far right side of the image]]
+--- Start   --------------------------------------------------------------------------------
+Action : hold, Object : knife image_name : knife_002682.jpg
+ANSWER : [Handle: entire grip from butt to front bolster for wrapping fingers and maintaining control. Butt/end of handle: anchor point against the palm for stability. Bolster/finger guard: pinch area for thumb and index to secure the hold. Spine of the blade near the handle: pinch support point for thumb/index without contacting the cutting edge.]
+--- Start   --------------------------------------------------------------------------------
+Action : drink_with, Object : bottle image_name : bottle_003259.jpg
+ANSWER : [Opening rim at the very top of the bottle, where lips contact to drink. Narrow neck directly below the rim, guiding and controlling the pour. Mid-body grippable section with the indented contours in the center of the bottle, where the hand holds while drinking.]
+--- Start   --------------------------------------------------------------------------------
+Action : drink_with, Object : cup image_name : cup_000508.jpg
+ANSWER : [Top rim of the cup around the opening used to place the lips while drinking. Opening at the center of the rim where the liquid exits when tilted. Handle loop on the right side, including its top, bottom, and inner curve, for gripping and lifting. Outer wall opposite the handle and adjacent side surfaces for additional finger support while tilting.]
+--- Start   --------------------------------------------------------------------------------
+Action : drink_with, Object : wine_glass image_name : wine_glass_003343.jpg
+ANSWER : [Rim: the entire circular lip at the top-center of the glass where the mouth contacts to sip. Stem: the narrow vertical section beneath the bowl in the center of the image where fingers pinch to hold and tilt. Stem–bowl junction: the small neck area just below the bowl that provides a stable pinch point while lifting. Bowl: the curved body in the upper-middle of the image that contains the liquid and guides flow toward the rim.]
+--- Start   --------------------------------------------------------------------------------
+Action : brush_with, Object : toothbrush image_name : toothbrush_001764.jpg
+ANSWER : [Brush head bristles at the top center used to scrub teeth; Neck just below the head that transmits force and guides the brush into the mouth; Entire handle along the mid-to-lower body for gripping and applying brushing force; Front power button area on the handle to activate and control brushing]
+--- Start   --------------------------------------------------------------------------------
+Action : throw, Object : soccer_ball image_name : soccer_ball_003436.jpg
+ANSWER : [The entire outer surface of the soccer_ball in the center of the image]
+--- Start   --------------------------------------------------------------------------------
+Action : throw, Object : javelin image_name : javelin_001474.jpg
+ANSWER : [Grip section wrapped in yellow around the mid-shaft used for hand hold and force application during the throw. Shaft immediately in front of the grip used for guiding and stabilizing during the release as the fingers extend. Shaft immediately behind the grip used for bracing with the palm and generating torque before release.]
+--- Start   --------------------------------------------------------------------------------
+Action : throw, Object : frisbee image_name : frisbee_003249.jpg
+ANSWER : [Outer rim circumference of the frisbee in the center of the image, used for fingertip grip and imparting spin on release. Top surface band just inside the rim around the whole disc, where the thumb presses to control angle. Underside inner lip of the rim all around, where fingertips hook to generate power. Upper-right curved cutout edge, providing an alternative finger hold for acceleration. Lower-left curved cutout edge, providing a secure grip during the wind-up. Bottom curved cutout edge along the lower rim, offering another gripping option for release.]
+--- Start   --------------------------------------------------------------------------------
+Action : throw, Object : discus image_name : discus_003558.jpg
+ANSWER : [The entire discus area in the center of the image]
+--- Start   --------------------------------------------------------------------------------
+Action : throw, Object : rugby_ball image_name : rugby_ball_000001.jpg
+ANSWER : [The laces panel and adjacent leather along the central oval of the rugby_ball in the center of the image, the longitudinal seams on both sides for finger purchase, and both pointed tips for directional release during the throw]
+--- Start   --------------------------------------------------------------------------------
+Action : throw, Object : baseball image_name : baseball_002670.jpg
+ANSWER : [The entire outer surface and raised seams of the baseball slightly left of the center of the image]
+--- Start   --------------------------------------------------------------------------------
+Action : throw, Object : basketball image_name : basketball_003534.jpg
+ANSWER : [The entire textured surface of the basketball just above the hoop’s rim on the left side of the image]
+--- Start   --------------------------------------------------------------------------------
+Action : beat, Object : drum image_name : drum_002586.jpg
+ANSWER : [Drumhead on the top surface covering the whole opening, especially the central striking area for beats. Rim/hoop along the top edge encircling the head for rimshots.]
+--- Start   --------------------------------------------------------------------------------
+Action : lift, Object : fork image_name : fork_001691.jpg
+ANSWER : [Handle grip area across the lower-right broad end and the middle of the curved handle where the hand grips to lift the fork. Neck under the head on the upper-left side where the thumb and index can pinch to stabilize during lift. Butt end at the rounded lower-right tip where additional leverage is applied during lifting.]
+--- Start   --------------------------------------------------------------------------------
+Action : talk_on, Object : cell_phone image_name : cell_phone_000601.jpg
+ANSWER : [Top front edge earpiece area of the cell_phone in the left-center of the image; Bottom edge microphone area closest to the camera; Central front touchscreen area where the call/answer controls appear; Both long side edges and the back surface used to grip and press the phone to the ear; Side button areas (power and volume) along the side edges used to wake the phone and adjust call volume]
+--- Start   --------------------------------------------------------------------------------
+Action : push, Object : bicycle image_name : bicycle_002432.jpg
+ANSWER : [Both handlebar grips at the front-right of the bicycle, the center of the handlebar–stem junction, the back edge and top surface of the saddle near the center-left, the top surface of the rear cargo rack above the back wheel, and the top tube section between the saddle and the front head tube]
+--- Start   --------------------------------------------------------------------------------
+Action : push, Object : motorcycle image_name : motorcycle_003541.jpg
+ANSWER : [Left handlebar grip and brake lever area—primary hold to push the motorcycle forward, Right handlebar grip and throttle housing—secondary hold to steer and push, Handlebar center at the stem above the headlight—stabilizes direction while pushing, Rear edge of the seat and tail section—broad surface to press from behind, Rear handhold area directly behind the seat—push or guide from the rear, Front fairing side edges around the headlight—flat surfaces to apply forward force, Left side body panel above the engine cover—sturdy spot to push from the side]
+--- Start   --------------------------------------------------------------------------------
+Action : eat, Object : hot_dog image_name : hot_dog_002166.jpg
+ANSWER : [Both ends and the central section of the hot_dog positioned diagonally across the center-left of the image, covering the entire biteable surface]
+--- Start   --------------------------------------------------------------------------------
+Action : eat, Object : carrot image_name : carrot_001443.jpg
+ANSWER : [The entire carrot piece on the right side of the cutting board, including both flat cut faces and the curved side surface for biting]
+--- Start   --------------------------------------------------------------------------------
+Action : eat, Object : orange image_name : orange_001193.jpg
+ANSWER : [Peel surface covering the entire orange in the lower-center of the image for gripping and peeling. Top end (stem side) of the orange for starting a peel. Bottom end (navel side) of the orange for starting a peel or holding. Exposed flesh just beneath the peel around the circumference for biting once peeled.]
+--- Start   --------------------------------------------------------------------------------
+Action : eat, Object : banana image_name : banana_002458.jpg
+ANSWER : [The stem end on the left side for gripping and starting the peel, the blossom tip on the lower-right end for initiating a bite or peel, and the entire length of the banana body from left to right where the edible flesh is accessed and bitten]
+--- Start   --------------------------------------------------------------------------------
+Action : eat, Object : broccoli image_name : broccoli_002796.jpg
+ANSWER : [[Floret crown and surrounding buds of the front-left broccoli for biting, plus the thick lower stem as the handhold], [Floret crown and upper buds of the central broccoli for biting, plus the exposed stem base for gripping], [Floret crown of the back-left broccoli for biting, plus its visible stem section for holding]]
+--- Start   --------------------------------------------------------------------------------
+Action : eat, Object : apple image_name : apple_001541.jpg
+ANSWER : [Side surface around the midsection of the apple in the center of the image for biting; Top area around the stem indentation for biting; Bottom area around the calyx for biting]
+--- Start   --------------------------------------------------------------------------------
+Action : swing, Object : baseball_bat image_name : baseball_bat_001882.jpg
+ANSWER : [Handle grip along the lower-left third of the bat, where both hands wrap to control the swing. Knob at the extreme lower-left butt, anchoring the grip and preventing slip. Tapered transition just above the grip toward the middle, where the top hand guides leverage during the swing. Barrel sweet spot across the mid-to-upper-right section of the bat, the primary striking area. Barrel end cap at the extreme upper-right tip, contributing to swing momentum.]
+--- Start   --------------------------------------------------------------------------------
+Action : swing, Object : tennis_racket image_name : tennis_racket_003066.jpg
+ANSWER : [Handle grip from butt cap to throat for holding and applying swing force. Butt cap at the base of the handle for anchoring the lower hand and preventing slip during the swing. Throat junction above the grip for stabilizing the racket and transferring torque. Hoop rim around the head for guiding the swing path through the air. Central stringbed of the head as the primary impact zone to be accelerated through the swing.]
+--- Start   --------------------------------------------------------------------------------
+Action : swing, Object : golf_clubs image_name : golf_clubs_001992.jpg
+ANSWER : [Top rubber grip for both hands to hold and control the swing; Upper and mid shaft below the grip to guide the swing arc; Hosel/neck where the shaft joins the head to transmit force; Front flat clubface of the head and its heel-toe edges that strike the ball during the swing]
+--- Start   --------------------------------------------------------------------------------
+Action : swing, Object : badminton_racket image_name : badminton_racket_003649.jpg
+ANSWER : [Handle grip from the butt cap to the top of the wrap: primary hand-hold to generate and control the swing. Butt cap at the base of the handle: anchors the grip during acceleration. Lower and middle shaft: transfers force and guides the swing arc. Throat where the shaft meets the head: stabilizes the swing transition. String bed and surrounding frame of the oval head: accelerates through the air and delivers impact during the swing.]
+==================================================
+Total number of action-object pairs processed: 123
+Number of missing GT files: 0
+All images successfully processed!

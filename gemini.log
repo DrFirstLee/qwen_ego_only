@@ -1,0 +1,204 @@
+nohup: ignoring input
+🤖 OpenAI client for 'gemini-2.5-pro' initialized.
+Processing 123 samples...
+==================================================
+--- Start   --------------------------------------------------------------------------------
+Action : jump, Object : skis image_name : skis_002829.jpg
+
+==================================================
+Metrics for only_ego skis_002829.jpg:
+ only_ego Current - KLD: 2.3334 | SIM: 0.1766 | NSS: 0.0138
+
+Cumulative only_ego  Averages over 1 samples:
+Average - KLD: 2.3334 | SIM: 0.1766 | NSS: 0.0138
+==================================================
+
+*** End   ******************************************************************************************************************************************************
+
+
+
+--- Start   --------------------------------------------------------------------------------
+Action : jump, Object : skateboard image_name : skateboard_002387.jpg
+
+==================================================
+Metrics for only_ego skateboard_002387.jpg:
+ only_ego Current - KLD: 2.8226 | SIM: 0.2819 | NSS: 0.4654
+
+Cumulative only_ego  Averages over 2 samples:
+Average - KLD: 2.5780 | SIM: 0.2293 | NSS: 0.2396
+==================================================
+
+*** End   ******************************************************************************************************************************************************
+
+
+
+--- Start   --------------------------------------------------------------------------------
+Action : jump, Object : surfboard image_name : surfboard_000658.jpg
+
+==================================================
+Metrics for only_ego surfboard_000658.jpg:
+ only_ego Current - KLD: 0.6639 | SIM: 0.5520 | NSS: 0.6249
+
+Cumulative only_ego  Averages over 3 samples:
+Average - KLD: 1.9400 | SIM: 0.3368 | NSS: 0.3680
+==================================================
+
+*** End   ******************************************************************************************************************************************************
+
+
+
+--- Start   --------------------------------------------------------------------------------
+Action : jump, Object : snowboard image_name : snowboard_001704.jpg
+
+==================================================
+Metrics for only_ego snowboard_001704.jpg:
+ only_ego Current - KLD: 1.5248 | SIM: 0.3627 | NSS: 0.1642
+
+Cumulative only_ego  Averages over 4 samples:
+Average - KLD: 1.8362 | SIM: 0.3433 | NSS: 0.3171
+==================================================
+
+*** End   ******************************************************************************************************************************************************
+
+
+
+--- Start   --------------------------------------------------------------------------------
+Action : peel, Object : carrot image_name : carrot_003707.jpg
+
+==================================================
+Metrics for only_ego carrot_003707.jpg:
+ only_ego Current - KLD: 5.3912 | SIM: 0.0382 | NSS: -0.4272
+
+Cumulative only_ego  Averages over 5 samples:
+Average - KLD: 2.5472 | SIM: 0.2823 | NSS: 0.1682
+==================================================
+
+*** End   ******************************************************************************************************************************************************
+
+
+
+--- Start   --------------------------------------------------------------------------------
+Action : peel, Object : orange image_name : orange_001193.jpg
+
+==================================================
+Metrics for only_ego orange_001193.jpg:
+ only_ego Current - KLD: 9.1068 | SIM: 0.0187 | NSS: -0.3369
+
+Cumulative only_ego  Averages over 6 samples:
+Average - KLD: 3.6404 | SIM: 0.2383 | NSS: 0.0840
+==================================================
+
+*** End   ******************************************************************************************************************************************************
+
+
+
+--- Start   --------------------------------------------------------------------------------
+Action : peel, Object : banana image_name : banana_000480.jpg
+
+==================================================
+Metrics for only_ego banana_000480.jpg:
+ only_ego Current - KLD: 11.1164 | SIM: 0.0044 | NSS: -0.3942
+
+Cumulative only_ego  Averages over 7 samples:
+Average - KLD: 4.7084 | SIM: 0.2049 | NSS: 0.0157
+==================================================
+
+*** End   ******************************************************************************************************************************************************
+
+
+
+--- Start   --------------------------------------------------------------------------------
+Action : peel, Object : apple image_name : apple_001541.jpg
+
+==================================================
+Metrics for only_ego apple_001541.jpg:
+ only_ego Current - KLD: 4.1963 | SIM: 0.2311 | NSS: 0.1250
+
+Cumulative only_ego  Averages over 8 samples:
+Average - KLD: 4.6444 | SIM: 0.2082 | NSS: 0.0294
+==================================================
+
+*** End   ******************************************************************************************************************************************************
+
+
+
+--- Start   --------------------------------------------------------------------------------
+Action : wash, Object : toothbrush image_name : toothbrush_001991.jpg
+
+==================================================
+Metrics for only_ego toothbrush_001991.jpg:
+ only_ego Current - KLD: 2.0539 | SIM: 0.1840 | NSS: 0.8172
+
+Cumulative only_ego  Averages over 9 samples:
+Average - KLD: 4.3566 | SIM: 0.2055 | NSS: 0.1169
+==================================================
+
+*** End   ******************************************************************************************************************************************************
+
+
+
+--- Start   --------------------------------------------------------------------------------
+Action : wash, Object : cup image_name : cup_003621.jpg
+
+==================================================
+Metrics for only_ego cup_003621.jpg:
+ only_ego Current - KLD: 7.2938 | SIM: 0.0130 | NSS: -0.6096
+
+Cumulative only_ego  Averages over 10 samples:
+Average - KLD: 4.6503 | SIM: 0.1863 | NSS: 0.0443
+==================================================
+
+*** End   ******************************************************************************************************************************************************
+
+
+
+--- Start   --------------------------------------------------------------------------------
+Action : wash, Object : orange image_name : orange_001193.jpg
+
+==================================================
+Metrics for only_ego orange_001193.jpg:
+ only_ego Current - KLD: 9.6582 | SIM: 0.0146 | NSS: -0.3100
+
+Cumulative only_ego  Averages over 11 samples:
+Average - KLD: 5.1056 | SIM: 0.1707 | NSS: 0.0121
+==================================================
+
+*** End   ******************************************************************************************************************************************************
+
+
+
+--- Start   --------------------------------------------------------------------------------
+Action : wash, Object : fork image_name : fork_001691.jpg
+
+==================================================
+Metrics for only_ego fork_001691.jpg:
+ only_ego Current - KLD: 2.0431 | SIM: 0.2170 | NSS: 0.5999
+
+Cumulative only_ego  Averages over 12 samples:
+Average - KLD: 4.8504 | SIM: 0.1745 | NSS: 0.0610
+==================================================
+
+*** End   ******************************************************************************************************************************************************
+
+
+
+--- Start   --------------------------------------------------------------------------------
+Action : wash, Object : wine_glass image_name : wine_glass_000186.jpg
+Traceback (most recent call last):
+  File "/home/bongo/porter_notebook/research/qwen_ego_only/ego_only.py", line 499, in <module>
+    main()
+  File "/home/bongo/porter_notebook/research/qwen_ego_only/ego_only.py", line 478, in main
+    results_ego = affordance_grounding(model, action, object_name, image_path, gt_path)
+  File "/home/bongo/porter_notebook/research/qwen_ego_only/ego_only.py", line 123, in affordance_grounding
+    results = model.process_image_ego(image_path, prompt, gt_path, action, exo_type)
+  File "/home/bongo/porter_notebook/research/qwen_ego_only/VLM_model_dot_gpt.py", line 458, in process_image_ego
+    response = self.client.chat.completions.create(
+  File "/home/bongo/anaconda3/envs/qwen25/lib/python3.9/site-packages/openai/_utils/_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+  File "/home/bongo/anaconda3/envs/qwen25/lib/python3.9/site-packages/openai/resources/chat/completions/completions.py", line 1147, in create
+    return self._post(
+  File "/home/bongo/anaconda3/envs/qwen25/lib/python3.9/site-packages/openai/_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/home/bongo/anaconda3/envs/qwen25/lib/python3.9/site-packages/openai/_base_client.py", line 1047, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - [{'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-pro'}, 'quotaValue': '2'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '40s'}]}}]

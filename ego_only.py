@@ -4,7 +4,7 @@ import torch
 import random
 from PIL import Image
 # import my_prompt4_gpt as my_prompt
-import my_prompt4_relative_coordi as my_prompt
+import my_prompt4 as my_prompt
 from file_managing import (
     load_selected_samples,
     get_actual_path,
